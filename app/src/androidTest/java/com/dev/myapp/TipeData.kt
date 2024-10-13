@@ -22,5 +22,4 @@ fun main () {
     val floatValue : Float = 50.6f
     print("Float $floatValue")
 
-
 }
