@@ -1,6 +1,7 @@
 package com.dev.myapp
 
 
+
 fun ContohList() {
     println("=== List ===")
     // List Read-Only
@@ -19,6 +20,13 @@ fun ContohList() {
     shape.remove("Triangle")
     println(shape)
 
+    println(shape.first())
+    println(shape.last())
+    println(shape.count())
+
+    shape.removeAt(1)
+    println(shape)
+
     // Mengubah data di dalam List Mutable
     shape[0] = "Oval"
     println(shape)
@@ -26,6 +34,4 @@ fun ContohList() {
     // List Read-Only
     val shapesLocked: List<String> = shape
     println(shapesLocked)
-
 }
-
