@@ -12,7 +12,7 @@ fun main () {
     println(contact.email)
 
     // update the value of the property: email
-    contact.email = "jane@gmail.com"
+    contact.email = "janee@gmail.com"
 
     // print the new value of the property: email
     println(contact.email)
